@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "byekan";
+  src: url("../fonts/Byekan.ttf") format("true type"),
+    url("../fonts/Byekan.woff") format("woff");
+}
+@font-face {
+  font-family: "lalezar";
+  src: url("../fonts/lalezar.ttf") format("true type"),
+    url("../fonts/lalezar.woff") format("woff");
+}
+
+body {
+  font-family: byekan;
+}
+.header {
+  height: 650px;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding-top: 30px;
+  text-align: center;
+}
+.header .pedarl {
+  list-style-type: none;
+}
+.child {
+  display: inline-block;
+  padding: 20px;
+}
+.child:hover {
+  color: orange;
+}
+.hone {
+  margin-top: 180px;
+  font-size: 55px;
+  font-family: lalezar;
+}
+.hone span {
+  color: orange;
+}
+.pheader {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  border: 1px solid white;
+  width: 450px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 20px;
+  margin: 30px auto;
+}
+
+.members {
+  text-align: center;
+}
+
+.mem-h2 {
+  margin-top: 20px;
+  font-size: 29px;
+}
+
+.mem-list {
+  margin: 20px 20px;
+  list-style-type: none;
+}
+
+.mem-item {
+  display: inline-block;
+  width: 300px;
+  box-shadow: 0 0 15px rgb(73, 72, 72);
+  margin: 25px;
+}
+.mem-pic {
+  width: 100%;
+}
+.mem-name {
+  font-size: 26;
+  font-family: lalezar;
+}
+.mem-desc {
+  text-align: justify;
+  padding: 18px;
+}
+.about {
+  text-align: center;
+  height: 650px;
+  background-image: url("../images/bg.jpg");
+
+  background-position: center;
+  background-size: cover;
+  background-color: #393838;
+  background-blend-mode: multiply;
+
+  padding: 100px;
+}
+.circel {
+  width: 600px;
+  height: 500px;
+  background-color: rgba(175, 175, 175, 0.4);
+  margin: auto;
+  border-radius: 50%;
+  padding: 65px;
+  border: 4px solid #15123a;
+}
+.circel h2 {
+  font-size: 30px;
+  color: white;
+}
+.circel p {
+  margin: 20px 20px;
+  text-align: justify;
+  color: white;
+}
+
+.footer {
+  height: 130px;
+  background-color: rgb(192, 191, 191);
+  padding: 32px 0;
+  text-align: center;
+}
+.footer2 {
+  height: 50px;
+  background-color: rgb(138, 136, 136);
+  text-align: center;
+}
+.img1 {
+  width: 50px;
+  height: 42px;
+  margin: 5px;
+}
+.footer p {
+  padding-top: 10px;
+}
